@@ -1,0 +1,7 @@
+services:
+  ngnix:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:80"
